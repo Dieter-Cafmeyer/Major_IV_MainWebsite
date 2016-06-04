@@ -1,0 +1,198 @@
+@media only screen and (max-width: 960px){
+
+  .part1 {
+    div {
+      width: 100%;
+    }
+  }
+
+  .part2 {
+    p {
+      width: 100%;
+    }
+  }
+
+  .part1-content {
+    width: 100%;
+    height: auto;
+    img {
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+
+  .part2 {
+    div {
+      width: 100%;
+    }
+  }
+
+  .part2-content {
+    flex-wrap: wrap;
+    height: auto;
+    width: 100vw;
+    background-size: 90%;
+    background-position: center top;
+
+    div {
+      margin-top: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      margin-bottom: 20px;
+      margin: 0 auto;
+    }
+  }
+
+  .part2, .part3, .part4, .part5 {
+    width: 100%;
+    height: auto;
+  }
+
+  .part3-content, .part4-content {
+    width: 95%;
+  }
+
+  .abbo {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+
+    li {
+      margin-bottom: 30px;
+      width: 48%;
+    }
+  }
+
+  .border {
+    border: #0bbbb1 solid 6px;
+  }
+
+  .middle {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  .part5-content {
+    width: 95%;
+  }
+
+  .part51 {
+    flex-wrap: wrap;
+    button {
+      margin-top: 30px;
+    }
+  }
+
+  .title2-hr {
+    display: none;
+    width: 0;
+  }
+}
+
+@media only screen and (max-width: 945px){
+  .part51 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 875px){
+  .part3-list {
+    ul {
+      width: 48%;
+
+      li {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .part2 {
+    margin-top: -50px;
+  }
+
+  .part2-content {
+    height: auto;
+
+    div {
+      height: auto;
+    }
+
+    h1 {
+      width: 90%;
+      text-align: center;
+    }
+  }
+
+  .paralax, .paralax1  {
+    background-size: 100% 70%;
+  }
+
+  .part3-list {
+    ul {
+      width: 100%;
+    }
+  }
+
+  .inputs {
+    input, select {
+      width: 95%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .abbo {
+    li {
+      width: 100%;
+    }
+  }
+  .paralax, .paralax1  {
+    background-size: 100% 60%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .part2 {
+    margin-top: -30px;
+  }
+
+  .part2-content {
+    img {
+      width: 90%;
+    }
+  }
+
+  .registration-title{
+    h2 {
+      width: 100%;
+    }
+  }
+
+  .register-button {
+    width: 90%;
+  }
+
+  .title1-hr {
+    width: 100%;
+  }
+
+  .paralax, .paralax1  {
+    background-size: 100% 50%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+
+  .paralax, .paralax1  {
+    background-size: 100% 45%;
+  }
+}
